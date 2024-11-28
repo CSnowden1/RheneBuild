@@ -1,0 +1,501 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": 9,
+            "product_show_cutline": true,
+            "show_rating": true,
+            "show_rating_count": false,
+            "padding_bottom": 20
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": 5,
+            "padding_bottom": 40
+          }
+        },
+        "variants": {
+          "type": "variant-selectors",
+          "settings": {
+            "option_size_swatch": 34,
+            "option_size_radio": 50,
+            "option_space": 30,
+            "padding_bottom": 30
+                    }
+        },
+        "subscriptions": {
+          "type": "subscription",
+          "disabled": true,
+          "settings": {
+            "subscriptions_enable_selectors": true,
+            "padding_bottom": 20
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "disabled": true,
+          "settings": {
+            "show_quantity": true,
+            "padding_bottom": 20
+          }
+        },
+        "sizes-remaining": {
+          "type": "size-remaining",
+          "disabled": true,
+          "settings": {
+            "info_page": "",
+            "title": "",
+            "show_remaining": true,
+            "show_remaining_style": "low",
+            "countdown": 10,
+            "padding_bottom": 0
+          }
+        },
+        "buttons": {
+          "type": "add-buttons",
+          "settings": {
+            "enable_payment_button": false,
+            "enable_gift_card_recipient": false,
+            "padding_bottom": 20
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "style": "accordions",
+            "enable_description": true,
+            "read_more": true,
+            "icon_description": "",
+            "description_expanded": true,
+            "title_1": "Details & Material",
+            "icon_name_1": "",
+            "raw_content_1": "<p>70% RWS Merino Wool 19.5µ, of the highest grade & 30% Cashmere</p><ul><li>Naturally resilient, soft & breathable</li><li>Fully fashioned ribbing & hand-linked seams</li><li>Fully traceable wool.</li></ul>",
+            "title_2": "Care Guide",
+            "icon_name_2": "",
+            "raw_content_2": "<p>Your Rhea knitwear followed an environmentally friendly wool finishing process to remain machine-washable. </p><p>Check the Care Guide for our extra tips </p><ul><li>Machine Washable at 30ºC</li><li>Do not bleach</li><li>Iron on a medium heat</li><li>Do not tumble dry</li><li>Gentle dry clean</li><li>And if you do get tired of your knit (after many, many seasons) you can join our Recycle program</li></ul>",
+            "title_3": "",
+            "icon_name_3": "",
+            "raw_content_3": "<p>Designed as a stylish loose fit. This item will not disappoint in fabric feel or fit.<br/><br/>- An oversized fit<br/>- One size fits all<br/>- Model is 172cm-5’7<br/></p>",
+            "title_4": "",
+            "icon_name_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "icon_name_5": "",
+            "raw_content_5": "<ul><li>Free shipping on orders €150 and over</li><li>Estimated delivery is 1 to 4 working days, depending on the delivery address</li><li>Returns are always on us. You have 30 days from the shipping date to return your purchase</li><li>To save you the hassle of printing your return label can be found in the box. Simply attach to the top of your box, and post at your local drop off point.</li></ul>",
+            "padding_bottom": 20
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "disabled": true,
+          "settings": {
+            "title": "Buy it with",
+            "upsell_type": "product_single",
+            "product": "",
+            "upsell_product_list": [
+
+            ],
+            "upsell_list_limit": 1,
+            "padding_bottom": 20
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
+            "padding_bottom": 20
+          }
+        },
+        "sharing": {
+          "type": "sharing",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share",
+            "target_device": "",
+            "padding_bottom": 20
+          }
+        },
+        "icon_AD3q7P": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shipment",
+            "icon_color": "#4b4b4b",
+            "text": "<p>Free shipping on orders €100 and over</p>",
+            "padding_bottom": 8
+          }
+        },
+        "icon_mpYVNc": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-send",
+            "icon_color": "#4b4b4b",
+            "text": "<p>Free returns within 30 days</p>",
+            "padding_bottom": 8
+          }
+        },
+        "icon_fy6qNP": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-truck",
+            "icon_color": "#4b4b4b",
+            "text": "<p>Estimated delivery is 1 - 4 days</p>",
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "variants",
+        "subscriptions",
+        "quantity",
+        "sizes-remaining",
+        "buttons",
+        "description",
+        "upsell",
+        "pickup",
+        "sharing",
+        "icon_AD3q7P",
+        "icon_mpYVNc",
+        "icon_fy6qNP"
+      ],
+      "settings": {
+        "layout": "none@columns",
+        "image_width": "half",
+        "image_spacing": 36,
+        "align": "left",
+        "bg": "palette--light bg--neutral",
+        "mobile_layout": "carousel",
+        "enable_video_looping": true,
+        "zoom_enable": true,
+        "alt_text_enable": true,
+        "alt_text_icon": "icon-ruler",
+        "product_breadcrumbs_enable": false,
+        "product_breadcrumbs_list": [
+
+        ],
+        "width": "wrapper",
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "section_liquid_NJRzqL": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<script>\n  var productId = '{{ product.id }}';\n  fetch(`https://static.renoon.com/widgets/rhea/${productId}_en.html`)\n    .then(response => { if (response.status !== 200) throw new Error(); return response.text(); })\n    .then(result => {\n      if (result !== 'Not Found') {\n        const parser = new DOMParser();\n        const htmlDoc = parser.parseFromString(result, 'text/html');\n\n        document.getElementById('widget-renoon').innerHTML = htmlDoc.getElementById('widget-renoon').innerHTML;\n        document.getElementById('renoon-script').innerHTML = htmlDoc.getElementById('renoon-script').innerHTML;\n\n      }\n    })\n    .catch(error => { console.log(error) });\n\n  function sendClickEvent(clickName) {\n    fetch('https://portal-api.renoon.com/widget/clickEvent/rhea/', {\n      method: 'POST',\n      headers: {\n        'Content-Type': 'application/json'\n      },\n      body: JSON.stringify({\n        productId: productId,\n        clickName\n      }),\n    });\n  }\n\n  function sendViewEvent() {\n    fetch('https://portal-api.renoon.com/widget/viewEvent/rhea/', {\n      method: 'POST',\n      headers: {\n        'Content-Type': 'application/json'\n      },\n      body: JSON.stringify({\n        productId: productId,\n      }),\n    });\n  }\n\n\n</script>\n\n<div id=\"widget-renoon\" class=\"wrapper section-padding\"></div>\n<script id=\"renoon-script\"></script>"
+      }
+    },
+    "section_tabs_FkpUeN": {
+      "type": "section-tabs",
+      "blocks": {
+        "text_zcfg8L": {
+          "type": "text",
+          "settings": {
+            "title": "Impact",
+            "text": "<p>Undeniably transparent means <a href=\"https://rheastore.co/pages/block-chain-technology\">traceability and transparency</a> along the entire value chain via Blockchain Technology.<br/><br/>At Rhea, we are fully Certified in the following</p><ul><li>No harmful chemicals in our supply chain</li><li>100% traceable from farm to product</li><li>Fully committed to animal welfare</li><li>Conscious dyeing & finishing</li><li>Recycled materials for packaging & labels</li></ul>"
+          }
+        },
+        "text_fr86Y4": {
+          "type": "text",
+          "settings": {
+            "title": "Wool Care",
+            "text": "<p><strong>Wear more, wash less</strong></p><p>Your Rhea knitwear followed an environmentally friendly wool finishing process to remain machine-washable. Check the <a href=\"https://rheastore.co/pages/product-care\">Care Guide</a> for our extra tips</p><p>Machine Washable at 30ºCDo not bleachIron on a medium heatDo not tumble dryGentle dry clean</p><p>And if you do get tired of your knit (after many, many seasons) you can join our <a href=\"https://rheastore.co/pages/recycling-programme\">Recycle program</a></p>"
+          }
+        },
+        "text_zxmcyQ": {
+          "type": "text",
+          "settings": {
+            "title": "Support",
+            "text": "<p>Let us know what you think of your items.  If you are not satisfied your purchase can be replaced at any time or returned after 30 days. All of our products come with a 30 day free return and one year manufacturers guarantee against defects.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_zcfg8L",
+        "text_fr86Y4",
+        "text_zxmcyQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_columns_DPixPx": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_98an9j": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/landscape_720x_7da6716e-d82e-4a86-a4e2-a4e4715c3b00.jpg",
+            "shape_class": "",
+            "title": "100% Traceability",
+            "text": "<p>We share the complete story behind our knitwear as we believe it is important for you to know what the process looks like and who we partner with.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_UHi8kD": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Sheep_02_720x_2a112420-7ec3-4f80-b5d2-13c4dd707c33.webp",
+            "shape_class": "",
+            "title": "Environmental Impact",
+            "text": "<p>We are part of nature. We create knitwear in harmony with nature, making use of one nature’s finest materials and sustainable production processes.</p>",
+            "button_label": "",
+            "button_link": "shopify://pages/transparency",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_RkgG6e": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/partners_720x_55a520c1-be1a-4e3b-aa59-b4573d9bf8d3.webp",
+            "shape_class": "",
+            "title": "Partnerships for change",
+            "text": "<p>We build valued relationships with our production partners to raise the standards globally throughout our value chain.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_98an9j",
+        "text_block_UHi8kD",
+        "text_block_RkgG6e"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 1,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": true,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image-with-text": {
+      "type": "section-double",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/landscape_720x_7da6716e-d82e-4a86-a4e2-a4e4715c3b00.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "kicker": "Impact",
+            "title": "",
+            "text": "<p>Undeniably transparent means <a href=\"https://rheastore.co/pages/block-chain-technology\">traceability and transparency</a> along the entire value chain via Blockchain Technology.<br/><br/>At Rhea, we are fully Certified in the following</p><ul><li>No harmful chemicals in our supply chain</li><li>100% traceable from farm to product</li><li>Fully committed to animal welfare</li><li>Conscious dyeing & finishing</li><li>Recycled materials for packaging & labels</li></ul>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "text"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "brick_gutter": 0,
+        "borders": true,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "image-with-text-2": {
+      "type": "section-double",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "kicker": "Image with text",
+            "title": "",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "image": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "image"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "section_gallery_VPWtUd": {
+      "type": "section-gallery",
+      "blocks": {
+        "image_bhVmne": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/RHEA0424_676f8498-9f66-4fc3-b708-c07a03f89260.jpg",
+            "link": ""
+          }
+        },
+        "image_ntzDxw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/RHEA0381_a8c6bbcd-fc88-42d0-9568-b91da14d0f24.jpg",
+            "link": ""
+          }
+        },
+        "image_JnYiEE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/RHEA0401_18b93611-061a-41ed-bdfd-4e20afa8ddd1.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_bhVmne",
+        "image_ntzDxw",
+        "image_JnYiEE"
+      ],
+      "disabled": true,
+      "settings": {
+        "scale_image": false,
+        "wh_ratio": 1,
+        "bg": "palette--light bg--neutral",
+        "add_gutters": true,
+        "progress_bar": "mobile",
+        "grid_large": 3,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "heading": "You also might like",
+        "bg": "palette--light bg--neutral",
+        "grid_large": 4,
+        "grid_medium": 3,
+        "grid_small": 1.2,
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "Related products",
+        "show_recently_viewed": true,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "product_recently_heading": "Recently viewed",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_liquid_NJRzqL",
+    "section_tabs_FkpUeN",
+    "section_columns_DPixPx",
+    "image-with-text",
+    "image-with-text-2",
+    "section_gallery_VPWtUd",
+    "related"
+  ]
+}

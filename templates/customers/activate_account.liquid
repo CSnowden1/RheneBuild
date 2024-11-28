@@ -1,43 +1,44 @@
-<section data-section-id="activate-account" data-section-type="activate-account">
-  <div class="Container">
-    <div class="PageContent PageContent--fitScreen PageContent--extraNarrow">
-      {%- form 'activate_customer_password', name: 'activate', class: 'Form Form--spacingTight', id: 'activate_customer_password' -%}
-        <header class="Form__Header">
-          <h1 class="Form__Title Heading u-h1">{{ 'customer.activate_account.title' | t }}</h1>
-          <p class="Form__Legend">{{ 'customer.activate_account.description' | t }}</p>
-        </header>
+<!-- /templates/customers/activate_account.liquid -->
+<div class="full__page__form__wrapper">
+  <div class="wrapper">
+    <div class="float-grid">
+      <div class="grid__item medium-up--one-half medium-up--push-one-quarter text-center">
+        <div class="full__page__form">
 
-        {%- if form.errors -%}
-          <div class="Form__Alert Alert Alert--error">
-            <ul class="Alert__ErrorList">
-              {%- for field in form.errors -%}
-                {%- if field == 'form' -%}
-                  <li class="Alert__ErrorItem">{{ form.errors.messages[field] }}</li>
-                {%- else -%}
-                  <li class="Alert__ErrorItem"><strong>{{ form.errors.translated_fields[field] }}</strong> {{ form.errors.messages[field] }}</li>
-                {%- endif -%}
-              {%- endfor -%}
-            </ul>
-          </div>
-        {%- endif -%}
+          <h1 class="account__form__title">{{ 'customer.activate_account.title' | t }}</h1>
+          <p>{{ 'customer.activate_account.subtext' | t }}</p>
 
-        <div class="Form__Item">
-          <input type="password" class="Form__Input" name="customer[password]" aria-label="{{ 'customer.activate_account.password' | t }}" placeholder="{{ 'customer.activate_account.password' | t }}" autofocus>
-          <label class="Form__FloatingLabel">{{ 'customer.activate_account.password' | t }}</label>
+          {% comment %}
+            This form must use 'activate_customer_password'
+          {% endcomment %}
+          {% form 'activate_customer_password' %}
+
+            {{ form.errors | default_errors }}
+
+            <div class="float__wrapper">
+              <label for="CustomerPassword">{{ 'customer.activate_account.password' | t }}</label>
+              <input type="password" value="" name="customer[password]" id="CustomerPassword" placeholder="{{ 'customer.activate_account.password' | t }}">
+            </div>
+
+            <div class="float__wrapper">
+              <label for="CustomerPasswordConfirmation">{{ 'customer.activate_account.password_confirm' | t }}</label>
+              <input type="password" value="" name="customer[password_confirmation]" id="CustomerPasswordConfirmation" placeholder="{{ 'customer.activate_account.password_confirm' | t }}">
+            </div>
+
+            <div class="text-center">
+              <button type="submit" class="btn--outline btn--full">
+                {{ 'customer.activate_account.submit' | t }}
+              </button>
+              <div class="form--additional">
+                <button type="submit" class="btn-text-thick-line" name="decline">
+                  {{ 'customer.activate_account.cancel' | t }}
+                </button>
+              </div>
+            </div>
+          {% endform %}
+
         </div>
-
-        <div class="Form__Item">
-          <input type="password" class="Form__Input" name="customer[password_confirmation]" aria-label="{{ 'customer.activate_account.password_confirmation' | t }}" placeholder="{{ 'customer.activate_account.password_confirmation' | t }}">
-          <label class="Form__FloatingLabel">{{ 'customer.activate_account.password_confirmation' | t }}</label>
-        </div>
-
-        <div class="Form__Submit">
-          <div class="ButtonGroup">
-            <button type="submit" class="Button Button--primary ButtonGroup__Item ButtonGroup__Item--expand">{{ 'customer.activate_account.submit' | t }}</button>
-            <button type="submit" class="Button Button--secondary ButtonGroup__Item ButtonGroup__Item--expand" name="decline">{{ 'customer.activate_account.decline' | t }}</button>
-          </div>
-        </div>
-      {%- endform -%}
+      </div>
     </div>
   </div>
-</section>
+</div>

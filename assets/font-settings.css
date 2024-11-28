@@ -1,0 +1,92 @@
+
+
+
+@font-face {
+  font-family: "Crimson Text";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("//rheastore.co/cdn/fonts/crimson_text/crimsontext_n4.b27fe5dd7d0f6abe43305743449a9d7cb1ed9e69.woff2?h1=cmhlYXN0b3JlLmNv&h2=cmhlYXN0b3JlLWNvLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=YWNjb3VudC5yaGVhc3RvcmUuY28&hmac=c6b0adb38de80414aa6aea0985e5dd95411eaf939755981fd30ded98a1a643ef") format("woff2"),
+       url("//rheastore.co/cdn/fonts/crimson_text/crimsontext_n4.8e68f1ee7887c8e05614e4d7a819d036430b5b1e.woff?h1=cmhlYXN0b3JlLmNv&h2=cmhlYXN0b3JlLWNvLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=YWNjb3VudC5yaGVhc3RvcmUuY28&hmac=2c102a21094d442a96ffdb01695808fda35bc3236f8bdcc190c3aae050c2d711") format("woff");
+}
+
+@font-face {
+  font-family: Karla;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("//rheastore.co/cdn/fonts/karla/karla_n4.187fb228d0a8055289c8663e90433b4a50e86848.woff2?h1=cmhlYXN0b3JlLmNv&h2=cmhlYXN0b3JlLWNvLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=YWNjb3VudC5yaGVhc3RvcmUuY28&hmac=0ab639227d277e6af0cbb80902a45257ef64f3cb7386f0148946f92477f05c94") format("woff2"),
+       url("//rheastore.co/cdn/fonts/karla/karla_n4.24ba61101c1ba185880bec9c74d8e7cdb826ad49.woff?h1=cmhlYXN0b3JlLmNv&h2=cmhlYXN0b3JlLWNvLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=YWNjb3VudC5yaGVhc3RvcmUuY28&hmac=0821b5a385ff8a39905108f343bfe15523a4d1cab4353a61643352bcbca1bb97") format("woff");
+}
+
+@font-face {
+  font-family: "Crimson Text";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("//rheastore.co/cdn/fonts/crimson_text/crimsontext_n4.b27fe5dd7d0f6abe43305743449a9d7cb1ed9e69.woff2?h1=cmhlYXN0b3JlLmNv&h2=cmhlYXN0b3JlLWNvLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=YWNjb3VudC5yaGVhc3RvcmUuY28&hmac=c6b0adb38de80414aa6aea0985e5dd95411eaf939755981fd30ded98a1a643ef") format("woff2"),
+       url("//rheastore.co/cdn/fonts/crimson_text/crimsontext_n4.8e68f1ee7887c8e05614e4d7a819d036430b5b1e.woff?h1=cmhlYXN0b3JlLmNv&h2=cmhlYXN0b3JlLWNvLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=YWNjb3VudC5yaGVhc3RvcmUuY28&hmac=2c102a21094d442a96ffdb01695808fda35bc3236f8bdcc190c3aae050c2d711") format("woff");
+}
+
+
+
+  @font-face {
+  font-family: "Crimson Text";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("//rheastore.co/cdn/fonts/crimson_text/crimsontext_n6.c47e03b3d993a969c0bc9ab0875ede980db72d48.woff2?h1=cmhlYXN0b3JlLmNv&h2=cmhlYXN0b3JlLWNvLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=YWNjb3VudC5yaGVhc3RvcmUuY28&hmac=5ed7def05e37bb2090846c6da7fd7588bb1295336be78c23b327f2173fdaeb05") format("woff2"),
+       url("//rheastore.co/cdn/fonts/crimson_text/crimsontext_n6.0bd9ea02d1acf47d14b352e402609116b52600d6.woff?h1=cmhlYXN0b3JlLmNv&h2=cmhlYXN0b3JlLWNvLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=YWNjb3VudC5yaGVhc3RvcmUuY28&hmac=e391ce2ce89ca4364315798577ae14567871fcd3cf361d4bb7986dce0442d72f") format("woff");
+}
+
+
+
+
+  @font-face {
+  font-family: "Crimson Text";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("//rheastore.co/cdn/fonts/crimson_text/crimsontext_n6.c47e03b3d993a969c0bc9ab0875ede980db72d48.woff2?h1=cmhlYXN0b3JlLmNv&h2=cmhlYXN0b3JlLWNvLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=YWNjb3VudC5yaGVhc3RvcmUuY28&hmac=5ed7def05e37bb2090846c6da7fd7588bb1295336be78c23b327f2173fdaeb05") format("woff2"),
+       url("//rheastore.co/cdn/fonts/crimson_text/crimsontext_n6.0bd9ea02d1acf47d14b352e402609116b52600d6.woff?h1=cmhlYXN0b3JlLmNv&h2=cmhlYXN0b3JlLWNvLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=YWNjb3VudC5yaGVhc3RvcmUuY28&hmac=e391ce2ce89ca4364315798577ae14567871fcd3cf361d4bb7986dce0442d72f") format("woff");
+}
+
+
+
+
+  @font-face {
+  font-family: Karla;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("//rheastore.co/cdn/fonts/karla/karla_n7.e8c0eb897464ccf45d5caa70ec8c7005d0f7b1b2.woff2?h1=cmhlYXN0b3JlLmNv&h2=cmhlYXN0b3JlLWNvLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=YWNjb3VudC5yaGVhc3RvcmUuY28&hmac=b7f4c642b34c4cb2c306832965b436099bb52ce8596a697f4a7fe0e670c63cd5") format("woff2"),
+       url("//rheastore.co/cdn/fonts/karla/karla_n7.98d31f084a84db1ace8d046ddc8faa522b144349.woff?h1=cmhlYXN0b3JlLmNv&h2=cmhlYXN0b3JlLWNvLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=YWNjb3VudC5yaGVhc3RvcmUuY28&hmac=05df2274d2bf7ac18e1de7db521ddba9908289259bc31a502922cf0f7ef5af7f") format("woff");
+}
+
+
+
+
+
+
+
+  @font-face {
+  font-family: Karla;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("//rheastore.co/cdn/fonts/karla/karla_i4.ce8a9af821b5675e15a4785a2318ed578e68e9c9.woff2?h1=cmhlYXN0b3JlLmNv&h2=cmhlYXN0b3JlLWNvLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=YWNjb3VudC5yaGVhc3RvcmUuY28&hmac=84881a4d0b7148fab1556b7b6bbdc4a6cb7db4f292e2eeaa3ddbb944e9a0897a") format("woff2"),
+       url("//rheastore.co/cdn/fonts/karla/karla_i4.8addc6e90a0d45abd627fd1c26cd4dbae936fbbb.woff?h1=cmhlYXN0b3JlLmNv&h2=cmhlYXN0b3JlLWNvLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=YWNjb3VudC5yaGVhc3RvcmUuY28&hmac=f30bcab50f5c3743d518768cc1f5b4108e3a8991daaeba1669df3ae4fae94c2b") format("woff");
+}
+
+
+
+  @font-face {
+  font-family: Karla;
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  src: url("//rheastore.co/cdn/fonts/karla/karla_i7.09a1f54d3edfd3142937b195898dad5acea092ce.woff2?h1=cmhlYXN0b3JlLmNv&h2=cmhlYXN0b3JlLWNvLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=YWNjb3VudC5yaGVhc3RvcmUuY28&hmac=73094ba0bfc34de9e74d95704062a228a025be6f6b4b859a3df51d7277ae6a8f") format("woff2"),
+       url("//rheastore.co/cdn/fonts/karla/karla_i7.7088df7c28e0b13b5406d1a8a5978bdb24760ab1.woff?h1=cmhlYXN0b3JlLmNv&h2=cmhlYXN0b3JlLWNvLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=YWNjb3VudC5yaGVhc3RvcmUuY28&hmac=ac6f6552c8528b39834d35023cf2ad2766ce84b67b2a5a4bdf87bc96dff5b4a8") format("woff");
+}
+
+
